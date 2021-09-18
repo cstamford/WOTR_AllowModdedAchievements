@@ -2,7 +2,7 @@
 	"Id": "AllowModdedAchievements",
 	"DisplayName": "Allow Modded Achievements",
 	"Author": "Xenofell",
-	"Version": "1.0.0",
+	"Version": "1.0.1",
 	"ManagerVersion": "0.23.3",
 	"Requirements": [],
 	"AssemblyName": "AllowModdedAchievements.dll",

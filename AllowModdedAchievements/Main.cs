@@ -29,14 +29,6 @@ namespace AllowModdedAchievements
             __result = false;
             return false;
         }
-
-        [HarmonyPrefix]
-        [HarmonyPatch(nameof(Player.ModsUser), MethodType.Setter)]
-        public static bool Setter(Player __instance)
-        {
-            __instance.ModsUser = false;
-            return false;
-        }
     }
 
     [HarmonyPatch(typeof(OwlcatModificationsManager), nameof(OwlcatModificationsManager.IsAnyModActive), MethodType.Getter)]
