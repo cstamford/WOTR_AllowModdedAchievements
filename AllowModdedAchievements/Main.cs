@@ -19,11 +19,10 @@ namespace AllowModdedAchievements
         }
     }
 
-    [HarmonyPatch(typeof(Player))]
+    [HarmonyPatch(typeof(Player), nameof(Player.ModsUser), MethodType.Getter)]
     public static class Player_ModsUser
     {
         [HarmonyPrefix]
-        [HarmonyPatch(nameof(Player.ModsUser), MethodType.Getter)]
         public static bool Prefix(ref bool __result)
         {
             __result = false;
