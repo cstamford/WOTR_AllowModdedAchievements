@@ -1,0 +1,12 @@
+{
+	"Id": "AllowModdedAchievements",
+	"DisplayName": "Allow Modded Achievements",
+	"Author": "Xenofell",
+	"Version": "1.0.0",
+	"ManagerVersion": "0.23.3",
+	"Requirements": [],
+	"AssemblyName": "AllowModdedAchievements.dll",
+	"EntryMethod": "AllowModdedAchievements.AllowModdedAchievements.Load",
+	"Repository": "https://raw.githubusercontent.com/cstamford/WOTR_AllowModdedAchievements/main/AllowModdedAchievements/Repository.json",
+	"HomePage": "https://www.nexusmods.com/pathfinderwrathoftherighteous/mods/119"
+}
